@@ -14,9 +14,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Created by Safae on 16/03/2017.
- */
+
 class ReadingServiceTest {
     private static final String CONFIG_FILE_PATH = "src/test/resources/config-test.properties";
     private static SqlConnector sql;

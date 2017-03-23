@@ -1,16 +1,16 @@
-delete from `fil_rouge`.`dw_station_means`;
-delete from `fil_rouge`.`dw_station_sampled`;
-delete from `fil_rouge`.`dw_station`;
-delete from `fil_rouge`.`dw_city`;
+delete from `DW_station_means`;
+delete from `DW_station_sampled`;
+delete from `DW_station`;
+delete from `DW_city`;
 
-INSERT INTO `fil_rouge`.`dw_city`
+INSERT INTO `DW_city`
 (`id`,
 `name`)
 VALUES
 (1,
 "city1");
 
-INSERT INTO `fil_rouge`.`dw_station`
+INSERT INTO `DW_station`
 (`id`,
 `station_number`,
 `city_id`,
@@ -33,7 +33,7 @@ VALUES
 1,
 1);
 
-INSERT INTO `fil_rouge`.`dw_station_sampled`
+INSERT INTO `DW_station_sampled`
 (`id`,
 `id_station`,
 `timestamp_start`,
@@ -50,9 +50,9 @@ VALUES
 1.5,
 3,
 3,
-'rain');
+'Rain');
 
-INSERT INTO `fil_rouge`.`dw_station_means`
+INSERT INTO `DW_station_means`
 (`id`,
 `id_station`,
 `week_day`,

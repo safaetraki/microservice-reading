@@ -41,8 +41,8 @@ public class Application {
         }
 
         // Run microservice
-        new MicroservicesRunner()
-                .deploy(new ReadingService())
+        new MicroservicesRunner(port)
+                .deploy(new ReadingService(configFile))
                 .start();
     }
 }

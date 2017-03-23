@@ -13,9 +13,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-/**
- * Created by Safae on 13/03/2017.
- */
+
 @Path("/reading")
 public class ReadingService {
 

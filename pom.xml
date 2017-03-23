@@ -27,7 +27,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.sio-ecp</groupId>
-    <artifactId>Reading-service</artifactId>
+    <artifactId>Reading-Service</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>WSO2 MSF4J Microservice</name>
 

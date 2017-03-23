@@ -9,9 +9,6 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 
-/**
- * Created by Safae on 01/03/2017.
- */
 public class ReadingEngine {
 
     private SqlConnector dbconnector;
